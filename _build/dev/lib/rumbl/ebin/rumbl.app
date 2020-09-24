@@ -1,7 +1,7 @@
 {application,rumbl,
              [{applications,[kernel,stdlib,elixir,phoenix,phoenix_pubsub,
                              phoenix_html,cowboy,logger,gettext,phoenix_ecto,
-                             postgrex]},
+                             postgrex,comeonin]},
               {description,"rumbl"},
               {modules,['Elixir.Rumbl','Elixir.Rumbl.Endpoint',
                         'Elixir.Rumbl.ErrorHelpers','Elixir.Rumbl.ErrorView',
